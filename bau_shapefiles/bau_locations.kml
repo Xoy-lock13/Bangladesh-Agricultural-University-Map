@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>bau_locations.kml</name>
+	<StyleMap id="1048904">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poi3n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poi3h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poi3h">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://kh.google.com:80/flatfile?lf-0-icons/park-15.png</href>
+				<gx:w>32</gx:w>
+				<gx:h>32</gx:h>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00000000</color>
+			<width>0</width>
+			<gx:labelVisibility>1</gx:labelVisibility>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poi3n">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://kh.google.com:80/flatfile?lf-0-icons/park-15.png</href>
+				<gx:w>32</gx:w>
+				<gx:h>32</gx:h>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00000000</color>
+			<width>0</width>
+			<gx:labelVisibility>1</gx:labelVisibility>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>bau_locations</name>
+		<open>1</open>
+		<Placemark id="1.2.1">
+			<name>Faculty of Agriculture</name>
+			<open>1</open>
+			<address>Mymensingh, Bangladesh</address>
+			<snippet>Mymensingh, Bangladesh</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=24.723475899999997&lng=90.4369426&fid=0x37564ff190d71a23:0xfaba212e25f441c8&hl=en&gl=us&client=earth-client&cv=7.3.7.1155&useragent=GoogleEarth/7.3.7.1155(X11;Linux (6.19.8.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#geocode</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=24.723475899999997&amp;lng=90.4369426&amp;fid=0x37564ff190d71a23:0xfaba212e25f441c8&amp;hl=en&amp;gl=us&amp;client=earth-client&amp;cv=7.3.7.1155&amp;useragent=GoogleEarth/7.3.7.1155(X11;Linux (6.19.8.0);en;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>90.43694259999999,24.7234759,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						90.43296828220581,24.7204951616544,0 90.43296828220581,24.7264566383456,0 90.4409169177942,24.7264566383456,0 90.4409169177942,24.7204951616544,0 90.43296828220581,24.7204951616544,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>GPB Field Laboratory</name>
+			<open>1</open>
+			<styleUrl>#98458_56241_17-2</styleUrl>
+			<Style>
+				<BalloonStyle>
+					<text><![CDATA[<html><body><div id="content" cid="1420606901635035284" hl="en"><script src="https://www.gstatic.com/_/mss/boq-geo/_/js/k=boq-geo.GeoEarthProBalloon.en.Ph5_1tjRT2Q.es5.O/d=0/rs=AD4das2yX298Ml1obBawxjzPQh_qQXmppQ" nonce="nIACXBTM7gPz6nw4rcb-ow"></script></div></body></html>]]></text>
+				</BalloonStyle>
+			</Style>
+			<Point>
+				<coordinates>90.42328000000001,24.72226,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BFRI</name>
+			<open>1</open>
+			<styleUrl>#49228_28121_16-2</styleUrl>
+			<Style>
+				<BalloonStyle>
+					<text><![CDATA[<html><body><div id="content" cid="11649364889425568095" hl="en"><script src="https://www.gstatic.com/_/mss/boq-geo/_/js/k=boq-geo.GeoEarthProBalloon.en.Ph5_1tjRT2Q.es5.O/d=0/rs=AD4das2yX298Ml1obBawxjzPQh_qQXmppQ" nonce="Cfo1-Cc4wjtxTacXTncvUA"></script></div></body></html>]]></text>
+				</BalloonStyle>
+			</Style>
+			<Point>
+				<coordinates>90.42119,24.72135,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>Agronomy Field Laboratory</name>
+			<open>1</open>
+			<address>PC9H+P9J, Mango Garden Rd, Mymensingh, Bangladesh</address>
+			<snippet>PC9H+P9J, Mango Garden Rd, Mymensingh, Bangladesh</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=24.719335500000003&lng=90.4284046&fid=0x37564f989f4941c7:0xce39ef72ae551bef&hl=en&gl=us&client=earth-client&cv=7.3.7.1155&useragent=GoogleEarth/7.3.7.1155(X11;Linux (6.19.8.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#listing_A</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=24.719335500000003&amp;lng=90.4284046&amp;fid=0x37564f989f4941c7:0xce39ef72ae551bef&amp;hl=en&amp;gl=us&amp;client=earth-client&amp;cv=7.3.7.1155&amp;useragent=GoogleEarth/7.3.7.1155(X11;Linux (6.19.8.0);en;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>90.42840459999999,24.7193355,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						90.4244301506095,24.7163546629571,0 90.4244301506095,24.7223163370429,0 90.43237904939051,24.7223163370429,0 90.43237904939051,24.7163546629571,0 90.4244301506095,24.7163546629571,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>BAU Stadium</name>
+			<open>1</open>
+			<address>PCCM+JCF, Mymensingh, Bangladesh</address>
+			<phoneNumber>+880 91-67402</phoneNumber>
+			<snippet>PCCM+JCF, Mymensingh, Bangladesh</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=24.7215557&lng=90.43353309999999&fid=0x37564ff3096b2cd1:0xfee14435c0a20ded&hl=en&gl=us&client=earth-client&cv=7.3.7.1155&useragent=GoogleEarth/7.3.7.1155(X11;Linux (6.19.8.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#listing_A</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=24.7215557&amp;lng=90.43353309999999&amp;fid=0x37564ff3096b2cd1:0xfee14435c0a20ded&amp;hl=en&amp;gl=us&amp;client=earth-client&amp;cv=7.3.7.1155&amp;useragent=GoogleEarth/7.3.7.1155(X11;Linux (6.19.8.0);en;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>90.43353309999998,24.7215557,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						90.429558727374,24.7185749205305,0 90.429558727374,24.7245364794695,0 90.43750747262598,24.7245364794695,0 90.43750747262598,24.7185749205305,0 90.429558727374,24.7185749205305,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TSC</name>
+			<open>1</open>
+			<styleUrl>#196927_112483_18-2</styleUrl>
+			<Style>
+				<BalloonStyle>
+					<text><![CDATA[<html><body><div id="content" cid="4685958579682110473" hl="en"><script src="https://www.gstatic.com/_/mss/boq-geo/_/js/k=boq-geo.GeoEarthProBalloon.en.Ph5_1tjRT2Q.es5.O/d=0/rs=AD4das2yX298Ml1obBawxjzPQh_qQXmppQ" nonce="mwMiMnEKhrTRtiXoscb4Nw"></script></div></body></html>]]></text>
+				</BalloonStyle>
+			</Style>
+			<Point>
+				<coordinates>90.43841999999999,24.72302,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Botanical Garden</name>
+			<open>1</open>
+			<description><![CDATA[<html><body><img width="1" height="1" style="display:none" src="http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=geography-parks._._.en.0x37564ffabeaaaaab:0xc347d9662f0d09f3&amp;cad=lod:15,lat:24.724405,lon:90.441688"/><div id="ftid_div" name="0x37564ffabeaaaaab:0xc347d9662f0d09f3&q=Botanical Garden,BD"><script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/geographic_web/dynamic/localities/citypage_loader.js"></script><noscript>Please upgrade to see this content.</noscript></div></body></html>]]></description>
+			<styleUrl>#1048904</styleUrl>
+			<Point>
+				<coordinates>90.441688,24.72440539999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>VTH</name>
+			<open>1</open>
+			<address>PCGM+5RR, Mymensingh, Bangladesh</address>
+			<phoneNumber>+880 1724-833732</phoneNumber>
+			<snippet>PCGM+5RR, Mymensingh, Bangladesh</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=24.7254917&lng=90.4345098&fid=0x37564f39a00d2c11:0xf9dd550c843432&hl=en&gl=us&client=earth-client&cv=7.3.7.1155&useragent=GoogleEarth/7.3.7.1155(X11;Linux (6.19.8.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#listing_A</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=24.7254917&amp;lng=90.4345098&amp;fid=0x37564f39a00d2c11:0xf9dd550c843432&amp;hl=en&amp;gl=us&amp;client=earth-client&amp;cv=7.3.7.1155&amp;useragent=GoogleEarth/7.3.7.1155(X11;Linux (6.19.8.0);en;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>90.4345098,24.7254917,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						90.430535548004,24.722511011003,0 90.430535548004,24.728472388997,0 90.438484051996,24.728472388997,0 90.438484051996,24.722511011003,0 90.430535548004,24.722511011003,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Jobbarer Mor, BAU</name>
+			<open>1</open>
+			<styleUrl>#49231_28120_16-3</styleUrl>
+			<Style>
+				<BalloonStyle>
+					<text><![CDATA[<html><body><div id="content" cid="16042256312871165868" hl="en"><script src="https://www.gstatic.com/_/mss/boq-geo/_/js/k=boq-geo.GeoEarthProBalloon.en.Ph5_1tjRT2Q.es5.O/d=0/rs=AD4das2yX298Ml1obBawxjzPQh_qQXmppQ" nonce="9ELF3wASNOYVhUifUtxh7A"></script></div></body></html>]]></text>
+				</BalloonStyle>
+			</Style>
+			<Point>
+				<coordinates>90.43527999999999,24.72297,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>K.R. MARKET, BAU</name>
+			<open>1</open>
+			<address>PCGP+QMJ, Mymensingh, Bangladesh</address>
+			<phoneNumber>+880 1703-738784</phoneNumber>
+			<snippet>PCGP+QMJ, Mymensingh, Bangladesh</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=24.7269632&lng=90.4366445&fid=0x37564f484c24a31b:0x73c3d0910bf72f45&hl=en&gl=us&client=earth-client&cv=7.3.7.1155&useragent=GoogleEarth/7.3.7.1155(X11;Linux (6.19.8.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#listing_A</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=24.7269632&amp;lng=90.4366445&amp;fid=0x37564f484c24a31b:0x73c3d0910bf72f45&amp;hl=en&amp;gl=us&amp;client=earth-client&amp;cv=7.3.7.1155&amp;useragent=GoogleEarth/7.3.7.1155(X11;Linux (6.19.8.0);en;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>90.43664450000001,24.7269632,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						90.4326702918694,24.7239825439021,0 90.4326702918694,24.7299438560979,0 90.4406187081306,24.7299438560979,0 90.4406187081306,24.7239825439021,0 90.4326702918694,24.7239825439021,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Mymensingh Weather Station</name>
+			<open>1</open>
+			<styleUrl>#196918_112480_18-2</styleUrl>
+			<Style>
+				<BalloonStyle>
+					<text><![CDATA[<html><body><div id="content" cid="17920696837459654079" hl="en"><script src="https://www.gstatic.com/_/mss/boq-geo/_/js/k=boq-geo.GeoEarthProBalloon.en.Ph5_1tjRT2Q.es5.O/d=0/rs=AD4das2yX298Ml1obBawxjzPQh_qQXmppQ" nonce="L6cCpOFFuZxsePQogJoSWA"></script></div></body></html>]]></text>
+				</BalloonStyle>
+			</Style>
+			<Point>
+				<coordinates>90.42596,24.72605,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BAU Agriculture Museum</name>
+			<open>1</open>
+			<styleUrl>#98461_56241_17-2</styleUrl>
+			<Style>
+				<BalloonStyle>
+					<text><![CDATA[<html><body><div id="content" cid="14626210460755645651" hl="en"><script src="https://www.gstatic.com/_/mss/boq-geo/_/js/k=boq-geo.GeoEarthProBalloon.en.Ph5_1tjRT2Q.es5.O/d=0/rs=AD4das2yX298Ml1obBawxjzPQh_qQXmppQ" nonce="4MbEENUTd-RCsRfeFD30Ow"></script></div></body></html>]]></text>
+				</BalloonStyle>
+			</Style>
+			<Point>
+				<coordinates>90.43191,24.72256,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BINA</name>
+			<open>1</open>
+			<styleUrl>#98461_56241_17-5</styleUrl>
+			<Style>
+				<BalloonStyle>
+					<text><![CDATA[<html><body><div id="content" cid="13425266057956336907" hl="en"><script src="https://www.gstatic.com/_/mss/boq-geo/_/js/k=boq-geo.GeoEarthProBalloon.en.Ph5_1tjRT2Q.es5.O/d=0/rs=AD4das2yX298Ml1obBawxjzPQh_qQXmppQ" nonce="4MbEENUTd-RCsRfeFD30Ow"></script></div></body></html>]]></text>
+				</BalloonStyle>
+			</Style>
+			<Point>
+				<coordinates>90.43163,24.72323,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BAU Gymnasium</name>
+			<open>1</open>
+			<styleUrl>#49231_28121_16-7</styleUrl>
+			<Style>
+				<BalloonStyle>
+					<text><![CDATA[<html><body><div id="content" cid="214996411711308773" hl="en"><script src="https://www.gstatic.com/_/mss/boq-geo/_/js/k=boq-geo.GeoEarthProBalloon.en.Ph5_1tjRT2Q.es5.O/d=0/rs=AD4das2yX298Ml1obBawxjzPQh_qQXmppQ" nonce="Z4seS4-o3I01D7LGyZNzhQ"></script></div></body></html>]]></text>
+				</BalloonStyle>
+			</Style>
+			<Point>
+				<coordinates>90.43485,24.72108,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KB College</name>
+			<LookAt>
+				<longitude>90.43038999974853</longitude>
+				<latitude>24.73251000053585</latitude>
+				<altitude>0</altitude>
+				<heading>-3.335253879399888e-10</heading>
+				<tilt>45.00000000053585</tilt>
+				<range>1000.000079661829</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>90.43038999974851,24.73251000053585,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KB High School</name>
+			<LookAt>
+				<longitude>90.43189110000048</longitude>
+				<latitude>24.72938780082397</latitude>
+				<altitude>0</altitude>
+				<heading>7.053873929483306e-13</heading>
+				<tilt>45.00000000082395</tilt>
+				<range>1000.000121935847</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>90.4318911000005,24.72938780082397,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dairy Farm</name>
+			<LookAt>
+				<longitude>90.42318000041752</longitude>
+				<latitude>24.72922000137862</latitude>
+				<altitude>0</altitude>
+				<heading>5.538532693374338e-10</heading>
+				<tilt>45.00000000137862</tilt>
+				<range>1000.000150140249</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>90.4231800004175,24.72922000137862,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Poultry Farm</name>
+			<LookAt>
+				<longitude>90.42161000032573</longitude>
+				<latitude>24.7299700003784</latitude>
+				<altitude>0</altitude>
+				<heading>4.322066192835822e-10</heading>
+				<tilt>45.00000000037842</tilt>
+				<range>1000.000035148852</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>90.42161000032573,24.7299700003784,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Folder>
+</Document>
+</kml>
